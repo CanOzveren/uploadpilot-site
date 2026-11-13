@@ -1,0 +1,33 @@
+# Secrets and environment
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*client_secret*
+*token*.json
+secrets/
+# Databases and private app data
+*.db
+*.sqlite
+*.sqlite3
+prisma/
+# Media and logs
+*.mp4
+*.mov
+*.log
+# Build, deps, maps, OS, editor
+node_modules/
+dist/
+*.map
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.wrangler/
+.claude/
+
+# Local owner notes (never published)
+notes/
